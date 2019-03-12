@@ -1,6 +1,6 @@
 import React from 'react'
 import Channel from '../containers/Channel'
-
+import Button from '../containers/Button'
 const ChannelsField = () => (
 
   <div className="row" >
@@ -10,6 +10,7 @@ const ChannelsField = () => (
     <Channel channelName="FT" channelString="financial-times" />
     <Channel channelName="ESPN" channelString="espn" />
     <Channel channelName="TIME" channelString="time" />
+    <Button />
   </div>
 );
 

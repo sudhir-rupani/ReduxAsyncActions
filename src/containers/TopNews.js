@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import  NewsItem  from '../components/NewsItem';
 
 let TopNews = ({ channels, loading }) => {
-    let topNews = "";
+    let topNews
 
     if (channels) {
         topNews = channels.map((article, index) =>

@@ -12,7 +12,7 @@ let Channel = ({ channelName, channelString, onClick, active }) => (
 )
 
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state) => (console.log(state),{
     active: state.channel
 })
 
